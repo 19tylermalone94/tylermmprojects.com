@@ -16,7 +16,7 @@ function Footer() {
             </a>
           </div>
           <div className="footer-info">
-            <p>&copy; {new Date().getFullYear()} Website. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} tylermmprojects. All rights reserved.</p>
           </div>
         </div>
       </footer>
