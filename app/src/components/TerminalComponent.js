@@ -121,7 +121,9 @@ function TerminalComponent({ setShowProjects, setShowContact, setShowAbout}) {
         </Draggable>
       )}
       {!isVisible && (
-        <button className="open-button" onClick={handleOpenClick}>Open Terminal</button>
+        <button className="open-button" onClick={handleOpenClick}>
+          <img src="xterm.jpeg" alt="Open Terminal" />
+        </button>
       )}
     </>
   );

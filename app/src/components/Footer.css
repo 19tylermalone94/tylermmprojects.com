@@ -7,3 +7,9 @@
 .footer-link:hover {
   color: #f1f1f1;
 }
+
+.footer{
+  background-color: rgb(33, 36, 58);
+  border: 1px solid #ccc;
+  border-radius: 5%;
+}

@@ -1,3 +1,20 @@
 body {
     margin: 1in;
 }
+
+.about-banner {
+    background-color: rgb(36, 27, 61);
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.about {
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: flex-start;
+    background-color: rgb(46, 54, 54);
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+}

@@ -1,17 +1,9 @@
 html, body {
-  background-color: rgb(61, 46, 46);
+  background-color: rgb(61, 46, 46); /* Fallback color */
+  background-image: url('/public/fractal.webp'); /* Path to your image */
+  background-size: auto; /* Cover the entire page */
+  background-position: center; /* Center the background image */
   overflow-x: hidden;
-}
-
-img {
-  max-width: 500px;
-  max-height: 500px;
-  transition: transform 0.3s ease;
-}
-
-img:hover {
-  transform: scale(1.02);
-  z-index: 1;
 }
 
 .App {

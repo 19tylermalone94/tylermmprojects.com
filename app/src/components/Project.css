@@ -1,0 +1,36 @@
+.project {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  align-items: flex-start;
+  background-color: rgb(46, 54, 54);
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5%;
+}
+  
+.project-description {
+  width: 45%;
+  text-align: left;
+}
+  
+.project-images {
+  display: flex;
+  align-items: center; /* Center items horizontally */
+  gap: 10px; /* Space between the elements */
+}
+
+.project-images img {
+  max-width: 500px;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.chevron {
+  background: none; /* or any desired style */
+  border: none; /* or any desired style */
+  font-size: 24px; /* Increase the font size */
+}
+
+.chevron:hover {
+  transform: scale(1.1); /* Increase the size of the chevron */
+}
