@@ -8,7 +8,7 @@ import './TerminalComponent.css';
 function TerminalComponent({ setShowProjects, setShowContact, setShowAbout}) {
   const terminalRef = useRef(null);
   const dir = useRef('');
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
   const [terminal, setTerminal] = useState(null);
 
   useEffect(() => {
