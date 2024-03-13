@@ -32,8 +32,12 @@ function TerminalComponent({ setShowProjects, setShowContact, setShowAbout}) {
     newTerm.open(terminalRef.current);
     fitAddon.fit();
 
+    newTerm.writeln("Type 'help' for instructions on how to use this terminal.");
+
     setUpTerminalListeners(newTerm);
     setTerminal(newTerm);
+
+    newTerm.focus();
   }
 
   const setUpTerminalListeners = (term) => {
@@ -98,6 +102,14 @@ function TerminalComponent({ setShowProjects, setShowContact, setShowAbout}) {
         break;
       case 'clear':
         term.clear();
+        break;
+      case 'help':
+        // Help command
+        term.writeln("List of available commands:");
+        term.writeln("\t'ls' - list available sections.");
+        term.writeln("\t'cd <section>' - navigate to a section");
+        term.writeln("\t'clear' - clear the terminal");
+        term.writeln("\t'help' - display this message");
         break;
       default:
         term.writeln(`${command}: command not found`);
