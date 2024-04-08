@@ -1,12 +1,12 @@
 import React from 'react';
 import Project from './Project';
 import './Projects.css';
-import projectsData from './projectsData'; // Adjust the path as necessary
+import projectsData from './projectsData';
 
 function Projects() {
   return (
     <div className='projects'>
-      <h1 className='projects-banner'>Projects</h1> {/* Changed from <title> to <h1> for in-document heading */}
+      <h1 className='projects-banner'>Projects</h1>
       {projectsData.map((project, index) => (
         <Project
           key={index}

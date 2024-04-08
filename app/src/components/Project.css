@@ -16,21 +16,23 @@
   
 .project-images {
   display: flex;
-  align-items: center; /* Center items horizontally */
-  gap: 10px; /* Space between the elements */
+  align-items: right;
+  gap: 10px;
 }
 
 .project-images img {
   max-width: 500px;
-  height: auto; /* Maintain aspect ratio */
+  height: auto;
 }
 
 .chevron {
-  background: none; /* or any desired style */
-  border: none; /* or any desired style */
-  font-size: 24px; /* Increase the font size */
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  border: 1px solid white;
 }
 
 .chevron:hover {
-  transform: scale(1.1); /* Increase the size of the chevron */
+  transform: scale(1.1);
 }
