@@ -24,7 +24,6 @@ const Project = ({ title, description, pictures = [], github }) => {
     <div className="project">
       <div className="project-description">
         <h2>{title}</h2>
-        {/* Conditional rendering based on the presence of the github prop */}
         {github ? <div className="project-github-links">{renderGithubLink()}</div> : null}
         <p>{description}</p>
       </div>

@@ -1,9 +1,9 @@
 html, body {
-  background-color: rgb(61, 46, 46); /* Fallback color */
-  background-image: url('/public/fractal.webp'); /* Path to your image */
-  background-size: auto; /* Cover the entire page */
-  background-position: center; /* Center the background image */
-  overflow-x: hidden;
+  background-color: rgb(61, 46, 46);
+  background-image: url('/public/fractal.webp');
+  background-size: auto;
+  background-position: center;
+  /* overflow-x: hidden; */
 }
 
 .App {
@@ -13,9 +13,9 @@ html, body {
 }
 
 .header, .footer {
-  min-height: 20vh; /* Adjust the value as needed */
+  min-height: 20vh;
   text-align: center;
-  width: 100%;
+  width: 99%;
   display: flex;
   justify-content: center;
 }
@@ -36,4 +36,26 @@ html, body {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.section-enter {
+  transform: scale(0.9);
+  opacity: 0;
+}
+
+.section-enter-active {
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.section-exit {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.section-exit-active {
+  transform: scale(0.9);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
 }

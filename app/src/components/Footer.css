@@ -1,9 +1,9 @@
 .footer-container {
   display: flex;
-  flex-direction: column; /* Align children vertically */
-  align-items: center; /* Center children horizontally */
-  justify-content: center; /* Center children vertically (if needed) */
-  padding: 10px; /* Add some padding for visual spacing */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 
 .footer-link {
@@ -25,21 +25,21 @@
 .social-links {
   display: flex;
   align-items: center;
-  justify-content: center; /* Ensure the links are centered */
+  justify-content: center;
 }
 
 .separator {
-  margin: 0 8px; /* Adjusts space around the separator */
-  font-size: 24px; /* Adjust as needed */
+  margin: 0 8px;
+  font-size: 24px;
 }
 
 .footer-icon {
   height: 24px;
   width: 24px;
-  margin-right: 10px; /* Adds some space to the right of the icon, adjust as needed */
+  margin-right: 10px;
 }
 
 .footer-info {
   text-align: center;
-  margin-top: 10px; /* Add some space between the links and the info */
+  margin-top: 10px;
 }
