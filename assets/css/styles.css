@@ -26,6 +26,34 @@ header #roles {
   margin-top: 0.5em;
 }
 
+header #contact {
+  margin-top: 1em;
+  font-size: 1em;
+}
+
+header #contact div {
+  margin: 0.25em 0;
+}
+
+header #contact a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+header #contact a:hover {
+  color: #d4d4d4;
+}
+
+header #contact div:first-child {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+header #contact div:last-child {
+  font-size: 1em;
+}
+
 section {
   margin: 1em auto;
   padding: 1em;
