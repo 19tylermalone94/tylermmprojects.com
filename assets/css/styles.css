@@ -817,6 +817,11 @@ html.flying #pageWorld { visibility: hidden; }
   backdrop-filter: blur(7px) saturate(120%);
   transition: transform .5s var(--ease), border-color .4s, box-shadow .5s;
 }
+.proj > a {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
 .proj:hover {
   transform: translateY(-6px);
   border-color: rgba(233,201,135,0.35);
