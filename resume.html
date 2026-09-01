@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tyler Malone · Resume</title>
+<style>
+  @page { size: letter; margin: 0.45in 0.6in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9.1pt; line-height: 1.26; color: #000; background: #fff;
+    max-width: 8.5in; margin: 0 auto; padding: 0.45in 0.6in;
+  }
+  @media print { body { padding: 0; } }
+  a { color: #000; text-decoration: none; }
+
+  header { text-align: center; margin-bottom: 10px; }
+  h1 { font-size: 19pt; font-weight: 700; letter-spacing: .02em; }
+  .subtitle { font-size: 10pt; margin-top: 2px; }
+  .contact { font-size: 9pt; margin-top: 3px; }
+
+  h2 {
+    font-size: 9.6pt; font-weight: 700; text-transform: uppercase; letter-spacing: .08em;
+    border-bottom: 1px solid #000; padding-bottom: 1px; margin: 7px 0 3px;
+  }
+  .summary { text-align: justify; }
+
+  .job { margin-bottom: 4px; }
+  .job:last-child { margin-bottom: 0; }
+  .line { display: flex; justify-content: space-between; gap: 12px; }
+  .org { font-weight: 700; }
+  .loc { white-space: nowrap; }
+  .role { font-style: italic; }
+  ul { margin: 2px 0 0 16px; }
+  li { margin-bottom: 1px; }
+  .tech { margin-top: 2px; }
+  .tech b { font-weight: 700; }
+  table.skills { width: 100%; border-collapse: collapse; }
+  table.skills td { vertical-align: top; padding: 0 0 1px 0; }
+  table.skills td:first-child { width: 88px; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Tyler Malone</h1>
+  <div class="subtitle">Software Engineer &mdash; Full-Stack, DevOps, AI Agent Systems</div>
+  <div class="contact">
+    tyler@contraptionsoft.com &nbsp;|&nbsp; tmalone.dev &nbsp;|&nbsp; linkedin.com/in/tylermmalone
+    &nbsp;|&nbsp; github.com/19tylermalone94 &nbsp;|&nbsp; US or Japan
+  </div>
+</header>
+
+<p class="summary">
+  Full-stack software engineer who most recently built WarTable.ai, taking it from an empty repo to a live, monetized
+  product with paying users. Experienced across AI agent systems, web applications, and the cloud infrastructure they
+  run on, and able to carry a project from development through deployment.
+</p>
+
+<h2>Experience</h2>
+
+<div class="job">
+  <div class="line"><span class="org">WarTable, by Freestyle Consulting</span><span class="loc">Jul 2025 &ndash; Jun 2026</span></div>
+  <div class="line"><span class="role">Software Engineer (Full-Stack &amp; DevOps), Contract</span><span class="loc">Remote</span></div>
+  <ul>
+    <li>Built this AI platform for small businesses from an empty repo to a live, monetized product, owning every
+      layer, including Athena, a chat agent that takes actions across roughly 3,000 connected apps with fine-grained
+      tool control.</li>
+    <li>Built retrieval and memory on ChromaDB over each user's synced documents, keeping answers grounded in the
+      user's own data across conversations.</li>
+    <li>Built a multi-agent Business Health Index that scores a business, generates prioritized tasks, and verifies
+      the work was actually completed.</li>
+    <li>Owned credits and billing, multiple GCP environments, and CI/CD to Cloud Run in production.</li>
+  </ul>
+  <div class="tech"><b>Technologies:</b> Next.js, Nest.js, Prisma, PostgreSQL, GCP, Firebase, OpenRouter, Pipedream, ChromaDB, mem0, Stripe</div>
+</div>
+
+<div class="job">
+  <div class="line"><span class="org">HYVV</span><span class="loc">Dec 2024 &ndash; Dec 2025</span></div>
+  <div class="line"><span class="role">Software Engineer (Full-Stack &amp; DevOps), Contract</span><span class="loc">Remote</span></div>
+  <ul>
+    <li>Built the platform's first AI features: a conversational agent that gathered context about users' businesses,
+      and single-prompt generation of complete products and features, images included.</li>
+    <li>Ran GCP, CI/CD, and the database alone after the rest of the team left, keeping the platform shipping through
+      the transition.</li>
+  </ul>
+  <div class="tech"><b>Technologies:</b> OpenAI API, Structured Output, Next.js, Node.js, Express, Prisma, PostgreSQL, GCP, Stripe, GitHub Actions</div>
+</div>
+
+<div class="job">
+  <div class="line"><span class="org">Project Sustain, Colorado State University</span><span class="loc">Jan 2025 &ndash; Aug 2025</span></div>
+  <div class="line"><span class="role">Software Engineer &amp; Research Assistant; REI Undergraduate Research Stipend</span><span class="loc">Fort Collins, CO</span></div>
+  <ul>
+    <li>Built a citation checker that verifies a paper's references against the open web and flags one only when
+      nothing checks out, cutting manual bibliography review while keeping false alarms low; containerized the work in
+      Docker and distributed it across worker machines.</li>
+    <li>Built a statistics suite of Python endpoints behind RamDesk graphs of grades and submission timing, plus
+      Canvas LMS grading and admin tools that let faculty work without fighting the Canvas interface.</li>
+  </ul>
+  <div class="tech"><b>Technologies:</b> Python, Flask, React, MongoDB, OpenAI API, Selenium, Docker, Canvas API</div>
+</div>
+
+<div class="job">
+  <div class="line"><span class="org">Colorado State University</span><span class="loc">Aug 2023 &ndash; Dec 2025</span></div>
+  <div class="line"><span class="role">Undergraduate Teaching Assistant</span><span class="loc">Fort Collins, CO</span></div>
+  <ul>
+    <li>Supported 200+ students per semester across five semesters in Python, Java, and Software Development, and
+      wrote every programming assignment alongside a new instructor, from spec to starter code to solutions.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="line"><span class="org">CSU Robotics Lab</span><span class="loc">Jan 2024 &ndash; Dec 2025</span></div>
+  <div class="line"><span class="role">Robotics Research Volunteer</span><span class="loc">Fort Collins, CO</span></div>
+  <ul>
+    <li>Returned an unmaintained ROS Fetch robot to working order after its operator left: verified it in Gazebo and
+      then on hardware, mapped the CS building lobby from LIDAR, and ran a YOLO-guided public demo.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="line"><span class="org">US Marine Corps</span><span class="loc">Oct 2018 &ndash; Oct 2022</span></div>
+  <div class="line"><span class="role">Refrigeration Technician; Utilities Operations &amp; Quality Control NCO</span><span class="loc">Okinawa, Japan</span></div>
+  <ul>
+    <li>As Quality Control NCO, brought a 50+ unit AMMPS generator fleet back under control from a broken maintenance
+      program, keeping the fleet mission-ready.</li>
+    <li>Designed the power plan for the Corps' largest annual field exercise. Awarded the Soochow Creek Medal for
+      keeping maintenance running through COVID-19; meritorious promotion to NCO.</li>
+  </ul>
+</div>
+
+<h2>Education</h2>
+<div class="job">
+  <div class="line"><span class="org">Colorado State University</span><span class="loc">Jan 2023 &ndash; Dec 2025</span></div>
+  <div class="line"><span class="role">B.S. Computer Science, GPA 3.96 / 4.0</span><span class="loc">Fort Collins, CO</span></div>
+  <div>Coursework: Machine Learning, Reinforcement Learning, Distributed Systems, AI Agents, System Security.</div>
+</div>
+
+<h2>Skills</h2>
+<table class="skills">
+  <tr><td>Languages</td><td>Python, TypeScript, JavaScript, Java</td></tr>
+  <tr><td>Web &amp; Data</td><td>React, Next.js, Node.js, Express, NestJS, FastAPI, Flask, PostgreSQL, Prisma, MongoDB, ChromaDB</td></tr>
+  <tr><td>Cloud</td><td>GCP, AWS, Azure, Cloud Run, Docker, GitHub Actions, CI/CD</td></tr>
+  <tr><td>AI</td><td>Agentic AI, RAG, MCP, OpenAI API, OpenRouter, Structured Output, mem0, ROS, YOLO</td></tr>
+</table>
+
+</body>
+</html>
